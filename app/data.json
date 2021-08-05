@@ -1,0 +1,657 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't"
+      ]
+    },
+
+    "order": {
+      "includes": [
+        "I'd like to order some food",
+        "I'd like something to eat",
+        "I'd like to order something to eat",
+        "some food",
+        "food",
+        "something to eat",
+        "breakfast",
+        "lunch",
+        "dinner",
+        "want some food",
+        "make an order",
+        "order to my room",
+        "order some food to my room"
+      ]
+    },
+
+    "cleaning": 
+    {
+      "includes":[
+        "I'd like my room cleaned",
+        "clean the room",
+        "cleaned",
+        "my room cleaned",
+        "could someone clean my room please",
+        "get the room cleaned",
+        "the room cleaned up",
+        "the room cleaned"
+      ]
+    },
+
+    "menu": 
+    {
+      "includes":[
+        "I'd like to know what's on the menu",
+        "menu",
+        "what is on the menu",
+        "what's the menu like",
+        "what food do you have",
+        "kind of food",
+        "in the menu",
+        "the menu",
+        "what do you have on your menu",
+        "what can you make"
+      ]
+    },
+
+    "forgot_sth": 
+    {
+      "includes":[
+        "I actually forgot to bring something",
+        "I forgot my",
+        "I forgot",
+        "I actually forgot",
+        "forgot",
+        "forgotten",
+        "didn't bring",
+        "forgot to bring",
+        "I forgot to bring my",
+        "I'm missing",
+        "I'm missing my",
+        "I can't find",
+        "can't find",
+        "unable to find",
+        "left at home",
+        "at home",
+        "forgot",
+        "I forgot my",
+        "forgotten",
+        "missing"
+      ]
+    },
+
+    "check_out_diff_hour": 
+    {
+      "includes":[
+        "I'd like to check out later'",
+        "move check out hour",
+        "move checking out hour",
+        "hour I check out",
+        "hour I need to check out",
+        "check out at a later hour",
+        "check out a bit later",
+        "can I change the time of my checkout",
+        "change the time",
+        "time",
+        "my checkout time",
+        "my check out time",
+        "the time I checkout",
+        "time of my checkout",
+        "time of the checkout",
+        "check out time",
+        "and can I check out at",
+        "is it possible to check out a bit later"
+      ]
+    },
+
+    "dry_cleaning": 
+    {
+      "includes":[
+        "offer dry cleaning",
+        "have dry cleaning",
+        "dry clean",
+        "dry clean service",
+        "dry cleaning service",
+        "dry cleaned",
+        "clothes dry cleaned",
+        "I'd like to send clothes to the dry cleaner shop"
+      ]
+    },
+
+    "appetizers": 
+    {
+      "includes":[
+        "appetizers wise",
+        "the appetizers",
+        "appetizers",
+        "what kind of appetizers do you guys have",
+        "appetizers on the menu"
+      ]
+    },
+
+    "pizza": 
+    {
+      "includes":[
+        "what kind of pizza do you have",
+        "what pizza do you have",
+        "pizza",
+        "what kind of pizza do you offer",
+        "what kind of pizza do you make",
+        "what type of pizza do you have",
+        "kind of pizza"
+      ]
+    },
+
+    "main_dishes": 
+    {
+      "includes":[
+        "what about the main dishes",
+        "main dishes",
+        "something large",
+        "a big meal",
+        "meal",
+        "a big meal for dinner"
+      ]
+    },
+
+    "drinks": 
+    {
+      "includes":[
+        "what drinks do you have?",
+        "what sodas do you have on tap?",
+        "can I get a drink?",
+        "what about drinks",
+        "what about the drinks",
+        "some drinks",
+        "something to drink",
+        "drink?",
+        "what kind of drinks do you have",
+        "you have any drinks",
+        "what are your drinks options",
+        "drinks options",
+        "beverages",
+        "drinks",
+        "how about drinks",
+        "drinks wise"
+      ]
+    },
+
+    "never_mind": 
+    {
+      "includes":[
+        "never mind",
+        "changed my mind",
+        "it's nothing",
+        "had a change of heart",
+        "change of heart",
+        "don't want this",
+        "don't want it",
+        "don't need it"
+      ]
+    },
+    "unsure": 
+    {
+      "includes":[
+        "I'm not sure",
+        "I'm usure",
+        "I don't know what I want",
+        "I don't know what I would like to order",
+        "I do not know",
+        "I don't know for sure",
+        "unsure",
+        "not sure",
+        "I'm not quite sure",
+        "I'm not sure what I'd like",
+        "not sure what I'd like to order",
+        "unsure what I want"
+      ]
+    },
+
+    "vicinity": 
+    {
+      "includes":[
+        "to do",
+        "anything to do",
+        "anything interesting",
+        "places of interest",
+        "places",
+        "interesting places",
+        "anyting to see",
+        "to see",
+        "to do",
+        "something to do",
+        "anything to do",
+        "something interesting",
+        "is there anything interesting to do outside the hotel",
+        "are there any interesting places"
+      ]
+    },
+
+    "hotel_restaurant": 
+    {
+      "includes":[
+        "restaurant in the hotel",
+        "hotel restaurant",
+        "restaurant here",
+        "Is there a restaurant here",
+        "is there a restaurant in this hotel",
+        "have a restautant",
+        "restaurant here",
+        "what about a restaurant",
+        "hotel restaurant",
+        "restaurant in the hotel",
+        "restaurant in here",
+        "do you guys have a restaurant here",
+        "is the restaurant here open",
+        "is your restautant open",
+        "do you have a restautant downstairs",
+        "restautant downstairs",
+        "could you tell me if the restaurant downstairs is open",
+        "the one you have downstairs",
+        "downstairs",
+        "is the restaurant downstairs open right now"
+      ]
+    },
+
+    "check_out_q": 
+    {
+      "includes":[
+        "question about check out",
+        "check out question",
+        "checkout",
+        "I have a question about my check out",
+        "I have a question about the checkout",
+        "check out",
+        "my checkout",
+        "my check out",
+        "regarding the checkout",
+        "about the checkout",
+        "about my checkout"
+      ]
+    },
+    "check_out_diff_day": 
+    {
+      "includes":[
+        "can I check out on a different day",
+        "change the day",
+        "day",
+        "my checkout day",
+        "my check out day",
+        "the day I checkout",
+        "day of my checkout",
+        "day of the checkout",
+        "check out on a different day",
+        "change the day of my checkout",
+        "I'd like to change the day of my checkout",
+        "I'd like to checkout on a different day",
+        "different day for my checkout",
+        "checkout be on a different day",
+        "other day",
+        "different day",
+        "is it possible to change my checkout"
+      ]
+    },
+
+    "park": 
+    {
+      "includes":[
+        "park",
+        "park around",
+        "any park",
+        "is there a park around",
+        "park in the area",
+        "about the parks",
+        "what parks",
+        "what park",
+        "regarding the parks",
+        "regarding parks"
+      ]
+    },
+
+    "restaurants": 
+    {
+      "includes":[
+        "restaurants",
+        "restaurant around",
+        "any restaurant",
+        "is there a restaurant around",
+        "restaurant in the area",
+        "tell me about the restaurants",
+        "about the restaurants",
+        "what restaurants",
+        "restaurants wise",
+        "the restaurants",
+        "regarding the restaurants",
+        "regarding restaurants"
+      ]
+    },
+    "amusement_park": 
+    {
+      "includes":[
+        "amusement park",
+        "amusement park around",
+        "any amusement park",
+        "is there a amusement park around",
+        "amusement park in the area",
+        "what amusement park",
+        "amusement park wise",
+        "the amusement park",
+        "regarding the amusement park",
+        "regarding amusement park"
+      ]
+    },
+    "cinema": 
+    {
+      "includes":[
+        "cinema",
+        "cinemas around",
+        "any cinema",
+        "is there a cinema around",
+        "cinema in the area",
+        "cinemas",
+        "to watch a movie",
+        "what cinemas",
+        "cinemas wise",
+        "the cinemas",
+        "regarding the cinemas",
+        "regarding cinemas"
+      ]
+    },
+    "can_help": 
+    {
+      "includes":[
+        "can you help me with something",
+        "could you help me",
+        "can you help me",
+        "help me",
+        "need help",
+        "would need your help",
+        "need some help"
+      ]
+    },
+    "bye": 
+    {
+      "includes":[
+        "bye",
+        "good bye",
+        "thanks bye",
+        "nevermind",
+        "forget about it",
+        "we're done",
+        "take it easy",
+        "peace out",
+        "peace",
+        "that's it",
+        "I'm good",
+        "all good",
+        "that's all",
+        "no that's it"
+      ]
+    }
+   },
+
+  
+  "entities": 
+  {
+    "day_of_week": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "Monday",
+          "synonyms": ["monday", "Monday", "Lunes", "day one"]
+        },
+        {
+          "value": "Tuesday",
+          "synonyms": ["martes", "tuesday", "Tuesday", "day two"]
+        },
+        {
+          "value": "Wednesday",
+          "synonyms": ["Humpday", "miercoles", "wednesday", "Wednesday"]
+        },
+        {
+          "value": "Thursday",
+          "synonyms": ["jueves", "thursday", "Thursday"]
+        },
+        {
+          "value": "Friday",
+          "synonyms": ["TGIF", "viernes", "friday", "Friday"]
+        },
+        {
+          "value": "Saturday",
+          "synonyms": ["sabado", "on Saturday"]
+        },
+        {
+          "value": "Sunday",
+          "synonyms": ["domingo", "on Sunday"]
+        }
+      ]
+    },
+    "time": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "9 am",
+          "synonyms": ["9 o'clock", "9 am", "9am", "9:00 AM","nine o'clock in the morning", "9", "9 in the morning"]
+        },
+        {
+          "value": "10 am",
+          "synonyms": ["10 o'clock", "10 am", "10am", "10:00 AM","ten o'clock in the morning", "10", "10 in the morning"]
+        },
+        {
+          "value": "11 am",
+          "synonyms": ["11 o'clock", "11 am", "11am", "11:00 AM", "eleven o'clock in the morning", "11", "11 in the morning"]
+        },
+        {
+          "value": "12 pm",
+          "synonyms": ["12 o'clock", "12 pm", "12pm", "12:00 PM", "12", "noon"]
+        },
+        {
+          "value": "1 pm",
+          "synonyms": ["1 o'clock", "1 pm", "1pm", "1:00 PM", "one o'clock in the afternoon", "1", "1 in the afternoon"]
+        },
+        {
+          "value": "2 pm",
+          "synonyms": ["2 o'clock", "2 pm", "2pm", "2:00 PM", "two o'clock in the afternoon", "2", "2 in the afternoon"]
+        },
+        {
+          "value": "3 pm",
+          "synonyms": ["3 o'clock", "3 pm", "3pm", "3:00 PM", "three o'clock in the afternoon", "3", "3 in the afternoon"]
+        },
+        {
+          "value": "4 pm",
+          "synonyms": ["4 o'clock", "4 pm", "4pm", "4:00 PM", "four o'clock in the afternoon", "4", "4 in the afternoon"]
+        },
+        {
+          "value": "5 pm",
+          "synonyms": ["5 o'clock", "5 pm", "5pm", "5:00 PM", "five o'clock in the afternoon", "5", "5 in the afternoon"]
+        },
+        {
+          "value": "6 pm",
+          "synonyms": ["6 o'clock", "6 pm", "6pm", "6:00 PM", "six o'clock in the evening", "6", "6 in the afternoon"]
+        },
+        {
+          "value": "7 pm",
+          "synonyms": ["7 o'clock", "7 pm", "7pm", "7:00 PM", "seven o'clock in the evening", "7", "7 in the afternoon"]
+        },
+        {
+          "value": "8 pm",
+          "synonyms": ["8 o'clock", "8 pm", "8pm", "8:00 PM", "eight o'clock in the evening", "8", "8 in the afternoon"]
+        },
+        {
+          "value": "9 pm",
+          "synonyms": ["9 o'clock", "9 pm", "9pm", "9:00 PM", "nine o'clock in the evening", "9", "9 in the evening"]
+        },
+        {
+          "value": "10 pm",
+          "synonyms": ["10 o'clock", "10 pm", "10pm", "10:00 PM", "ten o'clock in the evening", "10", "10 in the evening"]
+        },
+        {
+          "value": "11 pm",
+          "synonyms": ["11 o'clock", "11 pm", "11pm", "11:00 PM", "eleven o'clock in the evening", "11", "11 in the evening"]
+        },
+        {
+          "value": "12 am",
+          "synonyms": ["12 o'clock", "12 am", "12am", "12:00 AM", "twelve o'clock in the morning", "12", "12 in the morning", "noon"]
+        },
+        {
+          "value": "1 am",
+          "synonyms": ["1 o'clock", "1 am", "1am", "1:00 AM", "one o'clock in the morning", "1", "1 in the morning"]
+        },
+        {
+          "value": "2 am",
+          "synonyms": ["2 o'clock", "2 am", "2am", "2:00 AM", "two o'clock in the morning", "2", "2 in the morning"]
+        },
+        {
+          "value": "3 am",
+          "synonyms": ["3 o'clock", "3 am", "3am", "3:00 AM", "three o'clock in the morning", "3", "3 in the morning"]
+        },
+        {
+          "value": "4 am",
+          "synonyms": ["4 o'clock", "4 am", "4am", "4:00 AM", "four o'clock in the morning", "4", "4 in the morning"]
+        },
+        {
+          "value": "5 am",
+          "synonyms": ["5 o'clock", "5 am", "5am", "5:00 AM", "five o'clock in the morning", "5", "5 in the morning"]
+        },
+        {
+          "value": "6 am",
+          "synonyms": ["6 o'clock", "6 am", "6am", "6:00 AM","six o'clock in the morning", "6", "6 in the morning"]
+        },
+        {
+          "value": "7 am",
+          "synonyms": ["7 o'clock", "7 am", "7am", "7:00 AM","seven o'clock in the morning", "7", "7 in the morning"]
+        },
+        {
+          "value": "8 am",
+          "synonyms": ["8 o'clock", "8 am", "8am", "8:00 AM", "eight o'clock in the morning", "8", "8 in the morning"]
+        }
+      ],
+      "includes": [ 
+        "check out at [time] on [day_of_week]",
+        "checking out time to be [time] on [day_of_week]",
+        "let's do [time] on [day_of_week]",
+        "let's go with [time] on [day_of_week]",
+        "[day_of_week] at [time]",
+        "[time] on [day_of_week]"
+        ]
+    },
+    "forgotten_thing": 
+    {
+      "open_set": true,
+      "values": [
+        {
+          "value": "toothbrush",
+          "synonyms": ["something to brush my teeth with", "a toothbrush", "my toothbrush", "to brush my teeth with"]
+        },
+        {
+          "value": "hair brush",
+          "synonyms": ["hairbrush", "comb", "a comb", "a hairbrush", "a hair brush", "a hair comb", "a haircomb", "haircomb", "something to brush my hear with", "to brush my hear with", "around lunch time", "around lunch time"]
+        },
+        {
+          "value": "toothpaste",
+          "synonyms": ["tooth paste", "a toothpaste", "a tooth paste", "dinner time", "around dinner time", "sometime around dinner"]
+        }
+      ]
+    },
+    "food": {
+      "open_set": true,
+      "values": [
+        { "value": "Pepperoni", "synonyms": ["pepperoni", "pepperoni pizza", "a pepperoni", "the pepperoni pizza"] },
+        { "value": "Margherita", "synonyms": ["Margherita pizza", "a margherita pizza", "a margherita", "margherita"] },
+        { "value": "Veggie", "synonyms": ["vegan pizza", "vegan", "vegans", "vegeterian", "with vegetables", "without meat"] },
+        { "value": "fried calamari", "synonyms": ["calamari", "the fried calamari", "the calamari"] },
+        { "value": "french fries", "synonyms": ["fries", "the french fries", "the fries"] },  
+        { "value": "spring salad", "synonyms": ["the salad", "a salad", "spring one"] },
+        { "value": "soup of the day", "synonyms": ["the soup", "soup", "whatever soup", "a soup"] },
+        { "value": "mushroom tortellini", "synonyms": ["tortellini", "the tortellini", "the mushroom thingy"] },
+        { "value": "baked honey mustard chicken", "synonyms": ["the honey mastard one", "honey mustard", "honey one", "chicken", "baked chicken", "baked honey chicken", "baked mustard chicken", "mustard one"] },
+        { "value": "pasta carbonara", "synonyms": ["pasta", "carbonara"] },
+        { "value": "vietnamise porkchops", "synonyms": ["vietnamese dish", "pork", "porkchops"] }
+      ],
+      "includes": [
+        "I'd like a (pepperoni)[food] please",
+        "I'll take a (veggie pizza)[food] now",
+        "I'll like to get a (margherita)[food]",
+        "I'll like a (margherita)[food]",
+        "I'll have a (Pepperoni)[food] please",
+        "I'll order the (soup of the day)[food]",
+        "I'll have some (french fries)[food]",
+        "I'll order a (spring salad)[food]",
+        "I'll take (french fries)[food]",
+        "I'll take the (mushroom tortellini)[food]",
+        "I'll get the (muchroom thingy)[food]",
+        "I'll take the (soup)[food]",
+        "I'll take the (honey one)[food]",
+        "I'll take the (huney mastard)[food]",
+        "order the (pasta)[food]",
+        "get a (pasta carbonara)[food]",
+        "take that (vietnamese dish)[food]"
+      ]
+    },
+    "drinks": {
+      "open_set": false,
+      "values": [
+        { "value": "orange juice", "synonyms": ["OJ", "juice", "orange drink"] },
+        { "value": "vanilla milkshake", "synonyms": ["milkshake", "vanilla drink", "vanilla one"] },
+        { "value": "Sprite", "synonyms": ["soda"] }
+      ]
+    }
+  }
+}
