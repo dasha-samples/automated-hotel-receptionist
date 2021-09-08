@@ -8,8 +8,7 @@
     "phrases": {
       "i_will_call_back": [
         {
-          "text": "Okay, I'll call you later. Bye!",
-          "voiceInfo": { "speed": 0.3, "variation": 5 }
+          "text": "Okay, I'll call you later. Bye!"
         }
       ],
       "hello": {
@@ -73,8 +72,7 @@
       ],
       "dont_understand_forward": [
         {
-          "text": "I'm sorry, let me transfer you to another agent. Please stand by!",
-          "voiceInfo": { "speed": 0.3, "variation": 40 }
+          "text": "I'm sorry, let me transfer you to another agent. Please stand by!"
         }
       ],
       "mhm": [{ "text": "Mgm..." }],
